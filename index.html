@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhavya Praneetha Vemuri | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ===== General Styles ===== */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      color: #2c2c2c;
+      line-height: 1.6;
+    }
+
+    /* ===== Header ===== */
+    header {
+      background: linear-gradient(135deg, #4b6587, #9a8c98);
+      color: #fff;
+      text-align: center;
+      padding: 3rem 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-weight: 300;
+      margin-bottom: 1.5rem;
+      font-size: 1.1rem;
+    }
+
+    header nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    header nav a:hover {
+      color: #f1dede;
+      text-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+    }
+
+    /* ===== Section Base ===== */
+    section {
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+
+    section h2 {
+      color: #4b6587;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      position: relative;
+    }
+
+    section h2::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 3px;
+      margin: 0.5rem auto 1.5rem;
+      background: #9a8c98;
+      border-radius: 2px;
+    }
+
+    /* ===== About ===== */
+    #about p {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1.05rem;
+      color: #444;
+    }
+
+    /* ===== Projects ===== */
+    .projects-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
+    .project {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1.5rem;
+      max-width: 320px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .project h3 {
+      color: #4b6587;
+      margin-bottom: 0.5rem;
+    }
+
+    /* ===== Skills ===== */
+    #skills ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    #skills li {
+      background: #9a8c98;
+      color: white;
+      margin: 8px;
+      padding: 10px 20px;
+      border-radius: 30px;
+      display: inline-block;
+      font-weight: 500;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    #skills li:hover {
+      background: #c9ada7;
+      transform: scale(1.05);
+    }
+
+    /* ===== Contact ===== */
+    #contact a {
+      color: #4b6587;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    #contact a:hover {
+      text-decoration: underline;
+      color: #9a8c98;
+    }
+
+    /* ===== Footer ===== */
+    footer {
+      background: #2e2e2e;
+      color: #f7f7f7;
+      text-align: center;
+      padding: 1.5rem 0;
+      font-size: 0.95rem;
+      letter-spacing: 0.4px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header-content">
+      <h1>Bhavya Praneetha Vemuri</h1>
+      <p>B.Tech Student at KL University | Aspiring Web Developer</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! I’m <strong>Bhavya Praneetha Vemuri</strong>, a passionate B.Tech student at <strong>KL University</strong>.
+      I’m enthusiastic about crafting intuitive, beautiful, and responsive web experiences.
+      My goal is to become a skilled full-stack developer and create meaningful digital solutions.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project">
+        <h3>AI Student Assistant</h3>
+        <p>An AI chatbot that supports students in learning, emotional well-being, and productivity.</p>
+      </div>
+      <div class="project">
+        <h3>Online Bookstore</h3>
+        <p>A responsive bookstore web app built using HTML, CSS, and JavaScript with a smooth UI/UX.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React (Basics)</li>
+      <li>Python, C</li>
+      <li>Git & GitHub</li>
+      <li>Web Design</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:bhavyapraneethav@gmail.com">bhavyapraneethav@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/feed/?trk=onboarding-landing" target="_blank">linkedin.com/in/bhavyapraneethav</a></p>
+    <p>GitHub: <a href="https://github.com/VemuriBhavya08/portfolio_Bhavya_17-10-2025" target="_blank">github.com/bhavyapraneethav</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Bhavya Praneetha Vemuri | Designed with ❤️</p>
+  </footer>
+
+</body>
+</html>
